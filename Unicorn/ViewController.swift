@@ -14,18 +14,30 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    // We provided the code for you!
+     We provided the code for you!
     
     func unicorn() -> String {
-        
+
         return "🦄 🦄 🦄 🦄"
-        
+
+    }
+
+    func loveAgain(_ person: String) -> String {
+
+        return person + "♥️"
+
     }
     
-    func loveAgain(_ person: String) -> String {
-        
-        return person + "♥️"
-        
-    }
+//    func unicorn() -> String {
+//        return "🦄 🦄 🦄 🦄"
+//    }
+//
+//    unicorn()
+//
+//    func loveAgain(name: String) -> String {
+//        return "\(name) ♥️"
+//    }
+//
+//    loveAgain(name: "Steve")
     
 }
